@@ -30,9 +30,44 @@ export const Input = styled.TextInput`
   height: 60px;
   padding: 0 16px;
   border-radius: 10px;
-  margin: 8px 0;
+  margin-top: 8px;
   border-width: 2px;
   border-color: ${shade(0.15, '#fff')};
   flex-direction: row;
   align-items: center;
+`;
+
+export const Listing = styled.ScrollView`
+  margin-top: 32px;
+`;
+
+export const Card = styled.View`
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 45px;
+
+  flex-direction: row;
+  justify-content: space-around;
+`;
+
+export const Informations = styled.View`
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Name = styled.Text`
+  font-size: 20px;
+  color: #41414d;
+  font-weight: bold;
+`;
+
+export const Type = styled.Text`
+
+`;
+
+export const PokemonImage = styled.Image`
+  width: 200px;
+  height: 200px;
+  margin-top: -70px;
 `;
