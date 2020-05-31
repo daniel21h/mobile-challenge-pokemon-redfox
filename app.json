@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pokeChallenge",
-    "slug": "pokeChallenge",
+    "name": "Pokedex",
+    "slug": "Pokedex",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.hessel.pokeChallenge",
+      "versionCode": 1
+    },
+    "description": ""
   }
 }
